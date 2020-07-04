@@ -1,4 +1,3 @@
-pub mod logger;
 use anyhow::Result;
 use tokio_postgres::{Client, Config, NoTls};
 use tracing::error;

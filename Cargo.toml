@@ -7,3 +7,15 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+warp = "0.2"
+serde = "1.0"
+serde_json = "1.0"
+tokio = { version = "0.2", features = ["fs", "stream", "sync", "time", "macros"] }
+pretty_env_logger = "0.4"
+serde_derive = "1.0"
+http =  "0.2"
+recipe_analysis = { git = "https://github.com/aujxn/recipe_analysis" }
+tokio-postgres = "0.5"
+tracing = "0.1"
+tracing-subscriber = "0.2"
+anyhow = "1.0"
